@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+* {
+  font-family: 'Source Code Pro', monospace;
+  color: rgb(54, 49, 49);
+}
+div.post {
+  border : 3px solid rgb(148, 144, 143);
+  padding : 10px;
+  border-radius: 25px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+
+}
+hr {
+  border-bottom: 1px solid rgb(148, 144, 143);
+}
+
+.flip {
+  transform: scale(1, -0.5);
+}
+div.menu {
+  width: 35px;
+  height: 5px;
+  background-color: rgb(90, 86, 85);
+  margin: 6px 0;
+}
+div.navbar {
+  z-index: 2;
+  background-color: rgb(90, 86, 85);
+  top: 0;
+}
